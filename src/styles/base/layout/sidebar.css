@@ -1,0 +1,11 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: auto;
+  min-height: 100%;
+  background: radial-gradient(1613.51px at 50% 0%, #3C52C9 0%, #6B7DEA 100%);
+  color: #FFFFFF;
+  box-shadow: inset -3px 0px 6px rgba(0, 0, 0, 0.0953635);
+}

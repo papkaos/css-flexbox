@@ -1,0 +1,27 @@
+div.sidebar
+  div.sidebar-logo
+    svg.sidebar-logo__ico
+      use(xlink:href="#logo")
+    div.sidebar-logo__title CRM
+  nav.sidebar-menu
+    ul.sidebar-menu__list
+      li.sidebar-menu__list-item.sidebar-menu__list-item--active
+        div.sidebar-menu__link-wrapper
+          a.sidebar-menu__link(href="#") Application
+        ul.sidebar-submenu__list
+          li.sidebar-submenu__list-item.sidebar-submenu__list-item--active
+            a.sidebar-menu__link(href="#") Nice app 1
+          li.sidebar-submenu__list-item
+            a.sidebar-menu__link(href="#") Nice app 2
+      li.sidebar-menu__list-item
+        div.sidebar-menu__link-wrapper
+          a.sidebar-menu__link(href="#") Documentation
+      li.sidebar-menu__list-item
+        div.sidebar-menu__link-wrapper
+          a.sidebar-menu__link(href="#") Settings
+      li.sidebar-menu__list-item
+        div.sidebar-menu__link-wrapper
+          a.sidebar-menu__link(href="#") Support
+      li.sidebar-menu__list-item
+        div.sidebar-menu__link-wrapper
+          a.sidebar-menu__link(href="#") Log out

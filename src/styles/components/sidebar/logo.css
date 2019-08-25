@@ -1,0 +1,18 @@
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  padding: 17px 17px 17px 30px;
+}
+
+.sidebar-logo__ico {
+  margin-right: 13px;
+  width: 26px;
+  height: 24px;
+}
+
+.sidebar-logo__title {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
