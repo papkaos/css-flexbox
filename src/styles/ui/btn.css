@@ -1,0 +1,46 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  min-width: 108px;
+  padding: 5px 22px 6px;
+  text-align: center;
+  background-color: #3D61FF;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+  letter-spacing: 0.17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn--small {
+  min-width: auto;
+  padding: 6px 16px 6px;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.11px;
+  text-transform: none;
+  border-radius: 3px;
+}
+
+.btn--ico {
+  padding-left: 24px;
+
+  .svg-ico {
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    width: 7px;
+    height: 11px;
+    transform: translateY(-50%);
+  }
+}
+
+.btn--transparent {
+  background-color: transparent;
+  color: #3C52C9;
+  border: 1px solid #3C52C9;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.11);
+}

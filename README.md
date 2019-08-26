@@ -1,2 +1,2 @@
-# code-webpack-sekelon
-Rademade code skeleton. Webpack
+# Test layout task
+Node v6.*

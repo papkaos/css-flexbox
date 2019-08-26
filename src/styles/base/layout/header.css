@@ -1,6 +1,26 @@
 .header {
-  position: absolute;
+  position: fixed;
+  display: flex;
+  align-items: center;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 218px;
+  width: calc(100% - 218px);
+  padding: 16px 12px 15px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+}
+
+/* TODO think how to do with flexbox */
+.header__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #6B7DEA;
+  transform: translateX(-50%) translateY(-50%);
 }

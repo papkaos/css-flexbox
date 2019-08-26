@@ -1,0 +1,40 @@
+.search-form {
+  position: relative;
+  display: inline-block;
+  width: 277px;
+}
+
+.search-form__input {
+  width: 100%;
+  padding: 13px 58px 14px 18px;
+  background: #FFFFFF;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.37);
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 2px;
+
+  &::-webkit-input-placeholder { /* Edge */
+    color: rgba(0, 0, 0, 0.13);
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(0, 0, 0, 0.13);
+  }
+
+  &::placeholder {
+    color: rgba(0, 0, 0, 0.13);
+  }
+}
+
+.search-form__ico {
+  position: absolute;
+  top: 50%;
+  right: 19px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,139 @@
+.table {
+  width: 100%;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.table__row {
+  display: flex;
+  align-items: center;
+  padding: 16px 63px 14px 49px;
+
+  &:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+
+  &:first-child {
+    background-color: #FFFFFF;
+  }
+}
+
+.table__row--head {
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  padding-top: 22px;
+  padding-bottom: 19px;
+}
+
+.table__box {
+  flex-grow: 1;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.table__box--right-align {
+  padding-right: 0;
+  padding-left: 15px;
+  text-align: right;
+}
+
+.table__box--title {
+  width: 106px;
+}
+
+.table__box--role {
+  width: 142px;
+}
+
+.table__box--service {
+  width: 131px;
+}
+
+.table__box--company {
+  width: 101px;
+}
+
+.table__box--status {
+  width: 129px;
+}
+
+.table__box--date {
+  width: 120px;
+}
+
+.table__box--actions {
+  width: 166px;
+}
+
+.table__text {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table__text--ico {
+  position: relative;
+  padding-right: 20px;
+}
+
+.table__text--green {
+  color: #86EE82;
+
+  .table__text-ico {
+    background-color: #86EE82;
+  }
+}
+
+.table__text--red {
+  color: #FF5867;
+
+  .table__text-ico {
+    background-color: #FF5867;
+  }
+}
+
+.table__text-ico {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.table-actions {
+
+}
+
+.table-actions__item {
+  display: inline-block;
+  height: 25px;
+  margin-right: 18px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.table-actions__btn {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.table-actions__btn--actions {
+  width: 17px;
+}
+
+.table-actions__ico {
+  width: 100%;
+  height: 100%;
+}

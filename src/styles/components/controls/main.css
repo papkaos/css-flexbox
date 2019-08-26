@@ -4,3 +4,37 @@
   padding: 27px 45px 25px 19px;
   box-sizing: border-box;
 }
+
+.controls__box {
+  display: flex;
+  flex: 0;
+  flex-basis: auto;
+
+  &:last-child {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}
+
+.controls__item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.controls__text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.13px;
+  color: rgba(0, 0, 0, 0.36);
+}
+
+.controls__text--count {
+  margin-right: 9px;
+  color: #3C52C9;
+}

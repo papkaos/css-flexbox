@@ -1,2 +1,13 @@
 div.controls
-  div hi
+  div.controls__box
+    div.controls__item
+      label.search-form
+        input.search-form__input(type="text" placeholder="Search for something…")
+        svg.search-form__ico
+          use(xlink:href="#search")
+    div.controls__item
+      div
+        span.controls__text.controls__text--count 4
+        span.controls__text services enregistrés
+  div.controls__box
+    button.btn(type="button") Add
